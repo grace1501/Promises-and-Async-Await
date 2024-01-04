@@ -1,7 +1,7 @@
 // Importing database functions. DO NOT MODIFY THIS LINE.
 import { central, db1, db2, db3, vault } from "./databases.js";
 
-getUserData(15)
+getUserData(1)
   .then((userData) => console.log(userData))
   .catch((err) => console.log(err.message));
 
